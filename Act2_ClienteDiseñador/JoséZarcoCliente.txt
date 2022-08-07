@@ -1,0 +1,4 @@
+Petición: Vistas para una tienda de ropa de adolescentes.
+1) La primera vista será la de inicio, donde se puedan visualizar con detalle los productos y ofertas de la tienda, estas últimas que abarquen más espacio que las otras.
+2) Otra vista para la compra de productos, es decir, donde se muestren los artículos seleccionados con una breve descripción y la suma de precios para el total de la compra. Asimismo una sección donde se le presenten al usuario artículos relacionados a los que había seleccionado.
+- Me gustaría que la página web se muestre amigable y sea fácil de usar para poder brindarle una mejor experiencia al usuario.

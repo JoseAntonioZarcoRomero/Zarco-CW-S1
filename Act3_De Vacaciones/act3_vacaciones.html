@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coyotel</title>
+    <link rel="icon" href="./hotel.ico" type="image/icon">
+</head>
+<body>
+    <h1>Coyotel</h1>
+    <h2>¡Bienvenidos a Coyotel!</h2>
+    <img src="./coyotel.jpg" alt="Coyotel">
+    <p>El mejor hotel de la zona de Coyoacán. <em>La alegría de tu propia casa</em></p>
+    <form>
+        <fieldset>
+            <legend>Datos de reservacón</legend>
+            <label for="nombre">Nombre(s): </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required autofocus>
+                <br><br>
+            <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos" required>
+                <br><br>
+            <label for="correo">Correo electrónico: </label>
+                <input type="email" id="correo" name="correo" required placeholder="Email Address">
+                <br><br>
+            <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha" name="fecha" required>
+                <br><br>
+            <label for="celular">Número telefónico: </label>
+                <input type="number" id="celular" name="celular" required>
+                <br><br>
+            <label for="cama">Tipo de cama: </label>
+                <select name="cama" id="cama">
+                    <option>Individual</option>
+                    <option>Doble</option>
+                    <option>Queen size</option>
+                    <option>King size</option>
+                </select>
+                <br><br>
+            <label for="lugares">Selecciona los lugares de preferencia  de tu habitación: </label>
+                <br>
+                <input type="checkbox" id="plantabaja" name="plantabaja">
+                    <label for="plantabaja">Planta baja</label><br>
+                <input type="checkbox" id="piso1" name="piso1">
+                    <label for="piso1">Piso 1</label><br>
+                <input type="checkbox" id="piso2" name="piso2"> 
+                    <label for="piso2">Piso 2</label><br>
+                <input type="checkbox" id="balcon" name="balcon">
+                    <label for="balcon">Balcón</label>
+                <br><br><br><br>
+            <label for="comentarios">Comentarios adicionales: </label>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="45" rows="15" required></textarea>
+                <br><br>
+            <button type="sumbit">Enviar</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
